@@ -62,14 +62,11 @@ Pi = 3.14201936, elapsed time = 24.247615098953247 second(s)
     calculating Pi, but its execution time was slightly higher compared to
 CPython and Numba.
 
-- CPython performance:
+- CPython/Numba performance:
   - Pi value obtained: 3.14182408
-  - Elapsed time: 0.5820 seconds CPython outperformed PyPy in terms of both Pi
-    calculation accuracy and execution speed, providing the most efficient
-solution.
-
-- Numba performance: Numba's performance results were not directly mentioned.
-  However, it was included in the comparison with PyPy and CPython.
+  - Elapsed time: 0.5820 seconds CPython/Numba outperformed PyPy in terms of
+    both Pi calculation accuracy and execution speed, providing the most
+efficient solution.
 
 In conclusion, while PyPy offers a good balance of performance and Python
 compatibility, it was slightly slower in this specific benchmark compared to
