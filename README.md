@@ -1,6 +1,6 @@
 # Comparing PyPy performance with CPython and Numba
 
-*Note*: I'm using PyPy 7.3.16 with Python 3.10.14 and comparing it with CPython
+**Note**: I'm using PyPy 7.3.16 with Python 3.10.14 and comparing it with CPython
 3.12.3 and Numba 0.59.1
 
 ## Installation
@@ -28,7 +28,7 @@ With my Macbook Pro M1 Max with 10 cores and 64GB of RAM I got:
 Pi = 3.1420208, elapsed time = 2.217905044555664 second(s)
 ```
 
-## Running the benchmar for CPython and Numba
+## Running the benchmark for CPython and Numba
 
 ```bash
 pyenv shell 3.12.3
